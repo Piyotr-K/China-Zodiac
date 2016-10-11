@@ -1,0 +1,76 @@
+html, body {
+  font-family: Arial, Sans-serif;
+/*
+Background Art
+https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVEDM8Jxyr3L_Q4gXMWvUwbSTxp\
+*/
+  background-image: url("../Images/Backart2.png");
+  background-repeat: repeat;
+      background-attachment: fixed;
+      background-position: center;
+      margin: auto;
+      width: 100%;
+}
+.banner {
+  width: 100%;
+
+}
+
+p {
+  font-family: arial;
+  font-size: 22px;
+}
+
+#footer {
+  background-color: orange;
+  color: #FFFFFF;
+  position:fixed;
+  font-family: sans-serif;
+  width:100%;
+  bottom: 0;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+#text {
+  width: 80%;
+  margin: auto;
+}
+
+.padding {
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+}
+
+.specpadding {
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+}
+
+.imagealign {
+  text-align: center;
+}
+
+#form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: right;
+
+}
+
+#topAlign {
+  vertical-align: top;
+
+}
