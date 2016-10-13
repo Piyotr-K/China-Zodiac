@@ -16,13 +16,14 @@ https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVE
 
 }
 
-#footer {
+.footer {
   background-color: orange;
   color: #FFFFFF;
   position:fixed;
   font-family: sans-serif;
   width:100%;
   bottom: 0;
+  left: 0;
 }
 
 #bold {
