@@ -16,11 +16,6 @@ https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVE
 
 }
 
-p {
-  font-family: arial;
-  font-size: 22px;
-}
-
 #footer {
   background-color: orange;
   color: #FFFFFF;
@@ -40,9 +35,18 @@ p {
   margin: auto;
 }
 
-#text {
+.text {
   width: 80%;
   margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+}
+.header_text {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	font-family: Arial, sans-serif;
 }
 
 .padding {
@@ -63,6 +67,7 @@ p {
   text-align: center;
   margin-right:0 auto;
   margin-left:0 auto;
+  width:100%;
 }
 
 #form {
