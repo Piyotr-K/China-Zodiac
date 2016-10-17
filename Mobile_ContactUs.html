@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="utf-8" />
 	<title>Contact Us</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -11,16 +12,25 @@
 		<div class="col-xs-12">
 			<div class="imagealign">
 				<header>
-					<div class="row hidden-sm hidden-xs">
+					<div class="row hidden-xs">
 						<a href="index.html"><img src="Images/Banner.png" class="banner" alt="Banner" /></a>
 					</div>
-					<div class="row visible-sm visible-xs">
+					<div class="row visible-xs">
 						<a href="index.html"><img src="Images/Banner2.png" class="banner" alt="Banner" /></a>
 					</div>
 					<nav>
-						<a href="index.html"><img src="Images/HomePage.png" alt="Home Button" /></a>
-						<a href="Mobile_12Signs.html"><img src="Images/12Signs.png" alt="12 Signs Button" /></a>
-						<a href="Mobile_ContactUs.html"><img src="Images/ContactUs.png" alt="Contact Us Button"/></a>
+						<div class="row hidden-xs">
+							<a href="index.html"><img src="Images/HomePage.png" alt="Home Button" /></a>
+							<a href="Mobile_12Signs.html"><img src="Images/12Signs.png" alt="12 Signs Button" /></a>
+							<a href="Mobile_ContactUs.html"><img src="Images/ContactUs.png" alt="Contact Us Button" /></a>
+						</div>
+						<div class="row visible-xs">
+							<div class="col-xs-12">
+								<a href="index.html"><img src="Images/HomePage2.png" alt="Home Button" class="button"/></a>
+								<a href="Mobile_12Signs.html"><img src="Images/12Signs2.png" alt="12 Signs Button" class="button" /></a>
+								<a href="Mobile_ContactUs.html"><img src="Images/ContactUs2.png" alt="Contact Us Button" class="button" /></a>
+							</div>
+						</div>
 					</nav>
 				</header>
 			</div>
@@ -28,40 +38,43 @@
 			<br/>
 			<br/>
 			<section>
+				<h2 class="text">Contact Us Form</h2>
 				<form action="http://php.vncvr.ca/zodiac/" method="post">
 					<div class="row">
 						<div class="col-xs-12">
-							<table class="form">
-								<aside>
+							<article>
+								<h3 class="text">=</h3>
+								<table class="form">
 									<tr>
 										<td>Name:</td>
 									</tr>
-								</aside>
-								<tr>
-									<td><input class="input_field" name="Name" type="text" maxlength="25"/></td>
-								</tr>
-								<tr>
-									<td>Email Address:</td>
-								</tr>
-								<tr>
-									<td><input class="input_field" name="Email" type="text" maxlength="50"/></td>
-								</tr>
-								<tr>
-									<td id="topAlign">Comments:</td>
-								</tr>
-								<article>
+									<tr>
+										<td><input class="input_field" name="Name" type="text" maxlength="25"/></td>
+									</tr>
+									<tr>
+										<td>Email Address:</td>
+									</tr>
+									<tr>
+										<td><input class="input_field" name="Email" type="text" maxlength="50"/></td>
+									</tr>
+									<tr>
+										<td id="topAlign">Comments:</td>
+									</tr>
 									<tr>
 										<td><textarea class="input_field" name="Comment" rows="20" cols="25"></textarea></td>
 									</tr>
-								</article>
-								<tr>
-									<td></td>
-								</tr>
-								<tr>
-									<td><input type="submit" value="Submit" /></td>
-								</tr>
-							</table>
+									<tr>
+										<td></td>
+									</tr>
+									<tr>
+										<td><input type="submit" value="Submit" /></td>
+									</tr>
+								</table>
+							</article>
 						</div>
+						<aside>
+							<p class="text_small">We're not responsible for any medical deformities that our website may cause.</p>
+						</aside>
 					</div>
 					<div>
 						<p><input type="hidden" name="Student1Name" value="Piyotr Kao" /></p>

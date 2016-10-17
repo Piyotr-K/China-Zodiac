@@ -16,7 +16,7 @@ https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVE
 }
 
 .button {
-	width: 100%;
+	width: 75%;
 }
 .footer {
   background-color: orange;
@@ -45,6 +45,15 @@ https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVE
   font-family: Arial, sans-serif;
   font-size: 22px;
 }
+
+.text_small {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
 .header_text {
 	width: 80%;
 	margin: auto;
