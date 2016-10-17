@@ -15,6 +15,11 @@ https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVE
   width: 100%;
 }
 
+.banner2 {
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
+
 .button {
 	width: 75%;
 }
