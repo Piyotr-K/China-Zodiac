@@ -71,14 +71,18 @@ https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVE
   width:100%;
 }
 
-#form {
-  width: 500px;
-  margin: 0 auto;
-  text-align: right;
-
-}
-
 #topAlign {
   vertical-align: top;
+}
 
+.form {
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+}
+
+.input_field {
+	width: 50%;
 }
