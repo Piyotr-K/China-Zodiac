@@ -13,9 +13,11 @@ https://encrypted-tbn2.gstatic.com/images q=tbn:ANd9GcQ985ToruKPNY6hYWrBaHYlPZVE
 }
 .banner {
   width: 100%;
-
 }
 
+.button {
+	width: 25%;
+}
 .footer {
   background-color: orange;
   color: #FFFFFF;
